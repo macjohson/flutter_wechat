@@ -53,6 +53,7 @@ public class FlutterWechatPlugin: FlutterPlugin, MethodCallHandler {
   override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
     if (call.method == "shareMiniProgress") {
       val bytes: ByteArray? = call.argument<ByteArray>("thumb");
+      val driverName: String? = call.argument<String>("name");
       val miniProgramObj = WXMiniProgramObject();
       miniProgramObj.webpageUrl = "http://www.yixingdiandian.cn";
       miniProgramObj.path = "pages/index/index";
@@ -60,8 +61,8 @@ public class FlutterWechatPlugin: FlutterPlugin, MethodCallHandler {
       miniProgramObj.userName = "gh_42c6bf7471a6";
 
       val msg = WXMediaMessage(miniProgramObj);
-      msg.title = "司机分享";
-      msg.description = "点击直接打开司机行程";
+      msg.title = "易行${driverName}司机为您服务";
+      msg.description = "点击与该司机预约用车";
       msg.thumbData = bytes;
 
       val req: SendMessageToWX.Req = SendMessageToWX.Req();

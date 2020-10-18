@@ -9,9 +9,10 @@ class FlutterWechat {
       const MethodChannel('flutter_wechat');
 
 
-  static Future<void> shareDriverMiniProgram(Uint8List thumb) async{
+  static Future<void> shareDriverMiniProgram(Uint8List thumb, String name) async{
     await _channel.invokeMethod("shareMiniProgress", {
-      "thumb": thumb
+      "thumb": thumb,
+      "name": name
     });
   }
 }

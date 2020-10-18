@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
           onPressed: (){
             ImageProvider provider = NetworkImage('https://qiniu.yixingdiandian.cn/dark.jpg');
             provider.obtainKey(createLocalImageConfiguration(context)).then((value) => provider.load(value, (bytes, {allowUpscaling, cacheHeight, cacheWidth}){
-              FlutterWechat.shareDriverMiniProgram(bytes.buffer.asUint8List());
+              FlutterWechat.shareDriverMiniProgram(bytes.buffer.asUint8List(), '刘师傅');
               return instantiateImageCodec(bytes, targetWidth: cacheWidth, targetHeight: cacheHeight);
             }));
           },
