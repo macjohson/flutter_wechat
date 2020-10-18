@@ -61,7 +61,7 @@ public class FlutterWechatPlugin: FlutterPlugin, MethodCallHandler {
       miniProgramObj.userName = "gh_42c6bf7471a6";
 
       val msg = WXMediaMessage(miniProgramObj);
-      msg.title = "易行${driverName}司机为您服务";
+      msg.title = "易行司机${driverName}为您服务";
       msg.description = "点击与该司机预约用车";
       msg.thumbData = bytes;
 

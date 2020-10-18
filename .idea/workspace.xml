@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d07df636-59ff-4028-89c8-ae1e4d87e6fc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/huanshao/flutter_wechat/FlutterWechatPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/huanshao/flutter_wechat/FlutterWechatPlugin.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,22 +43,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1603020641210">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1603021092396">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603020641210" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1603020641209">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603021092396" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1603021092395">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603020641209" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1603020641208">
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603021092395" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1603021092394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603020641208" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1603020641209">
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603021092394" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1603021092395">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603020641209" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603021092395" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1603012059144">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
